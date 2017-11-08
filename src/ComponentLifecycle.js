@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-/**
- * 
- */
 class EventerApp extends React.Component {
     constructor() {
         super();
