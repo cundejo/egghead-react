@@ -19,7 +19,7 @@ class App extends React.Component {
             <div>
                 <h1>Hello {name}, you are {age} years old.</h1>
                 <p>Enter something in the input and see what happens</p>
-                <Widget change={8} />
+                <Widget change={this.updateText.bind(this)} />
                 <p><code>state.text</code>: {this.state.text}</p>
             </div>
         );
