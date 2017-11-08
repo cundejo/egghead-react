@@ -6,7 +6,9 @@ import ReactDOM from 'react-dom';
 // import App from "./AppValidationProps";
 // import App from "./AppStateEvents";
 // import App from "./AppRef";
-import App from "./ComponentLifecycle";
+// import App from "./ComponentLifecycle";
+import App from "./AppCheckingProps";
+
 
 // ReactDOM.render(<App name="Oliver" age={32} />, document.getElementById('root'));
 
