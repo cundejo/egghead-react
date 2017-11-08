@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class App extends React.Component {
-
     constructor() {
         super();
         this.state = {
@@ -20,7 +19,7 @@ class App extends React.Component {
             <div>
                 <h1>Hello {name}, you are {age} years old.</h1>
                 <p>Enter something in the input and see what happens</p>
-                <Widget change={this.updateText.bind(this)} />
+                <Widget change={8} />
                 <p><code>state.text</code>: {this.state.text}</p>
             </div>
         );
@@ -40,5 +39,9 @@ App.defaultProps = {
 const Widget = (props) => (
     <input type="text" onChange={props.change} />
 );
+
+Widget.propTypes = {
+    change: PropTypes.func.isRequired
+}
 
 export default App;
