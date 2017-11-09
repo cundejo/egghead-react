@@ -9,7 +9,8 @@ import ReactDOM from 'react-dom';
 // import App from "./ComponentLifecycle";
 // import App from "./AppCheckingProps";
 // import App from "./AppCreateCompFromData";
-import App from "./AppJSXCompiler";
+// import App from "./AppJSXCompiler";
+import App from "./AppCloneComponents";
 
 
 // ReactDOM.render(<App name="Oliver" age={32} />, document.getElementById('root'));
