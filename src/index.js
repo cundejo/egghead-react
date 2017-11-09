@@ -10,7 +10,8 @@ import ReactDOM from 'react-dom';
 // import App from "./AppCheckingProps";
 // import App from "./AppCreateCompFromData";
 // import App from "./AppJSXCompiler";
-import App from "./AppCloneComponents";
+// import App from "./AppCloneComponents";
+import App from "./AppReusableComponent";
 
 
 // ReactDOM.render(<App name="Oliver" age={32} />, document.getElementById('root'));

@@ -36,9 +36,9 @@ class App extends React.Component {
         return (
             <div>
                 <input type="text" onChange={this.filter.bind(this)}/>
-                {items.map(item =>
-                    <Person key={item.name} person={item} />
-                )}
+                {
+                    items.map(item => <Person key={item.name} person={item} />)
+                }
             </div>
         );
     }
